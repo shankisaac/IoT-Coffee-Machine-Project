@@ -37,3 +37,11 @@ This project shows how to use a Raspberry Pi, Java, Spring Boot, and RESTful ser
 ## How to Use
 - **Spring Boot API**: Use the API endpoints to set and check the coffee machine’s schedule.
 - **Raspberry Pi**: Ensure it runs the Java code to control the coffee machine based on the schedule.
+
+Project Structure
+   spring-boot/: Contains the Spring Boot application files.
+   - CoffeeMachineController.java: Handles the scheduling API.
+   - build.gradle: Configures the Gradle build for the Spring Boot application.
+
+   raspberry-pi/: Contains the Java application for the Raspberry Pi.
+   - CoffeeMachineScheduler.java: Fetches the schedule from the API and controls the coffee machine.
