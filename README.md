@@ -7,7 +7,7 @@ This project shows how to use a Raspberry Pi, Java, Spring Boot, and RESTful ser
 - **Java**: Used for the backend application running on the Raspberry Pi.
 - **Spring Boot**: Provides a RESTful API for scheduling the coffee machine.
 - **RESTful Services**: Facilitates communication between the backend and the Raspberry Pi.
-- **Raspberry Pi**: Controls the coffee machine using a relay module.
+- **Raspberry Pi**: Controls the coffee machine using a GPIO pin and a relay module.
 
 ## Setting Up the Spring Boot Application
 1. **Generate a Spring Boot Project:**
